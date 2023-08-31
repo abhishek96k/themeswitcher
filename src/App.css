@@ -1,4 +1,4 @@
-.main-card{
+.main-card {
   align-items: center;
   justify-content: center;
   display: flex;
@@ -29,18 +29,18 @@ flex-fill {
 .tab ul li {
   width: -webkit-fill-available;
   display: inline;
-  color: white;
+  color: rgb(127, 125, 125);
   text-align: center;
-  background-color: gray;
+  /* background-color: gray; */
 }
 
 .tab ul li:hover {
   color: black;
   cursor: pointer;
-  background-color: rgb(159, 155, 155);
+  background-color: rgb(205, 199, 199);
 }
 
-.content { 
+.content {
   display: none;
 }
 
@@ -49,6 +49,12 @@ flex-fill {
   text-align: center;
 }
 
-nav.dark {
-  background-color: gray;
+.dark {
+  background-color: #545454;
+  color: rgb(127, 125, 125);
+}
+
+.btn {
+  padding: 5px;
+  margin: 10px;
 }
